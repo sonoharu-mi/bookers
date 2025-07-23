@@ -137,11 +137,12 @@ table {
 
 .flash-message.notice {
   color: green;
-  border: solid 1px darkgreen;
+  letter-spacing: 1px;
 }
 
-.flash-message.aleat {
+.flash-message.alert {
   color: red;
+  letter-spacing: 1px;
 }
 
 .error {
