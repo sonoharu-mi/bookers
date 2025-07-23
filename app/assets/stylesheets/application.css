@@ -132,8 +132,16 @@ table {
 
 .flash-message {
   margin: 30px 70px;
-  color: green;
   font-size: 14px;
+}
+
+.flash-message.notice {
+  color: green;
+  border: solid 1px darkgreen;
+}
+
+.flash-message.aleat {
+  color: red;
 }
 
 .error {
